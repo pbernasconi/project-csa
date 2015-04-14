@@ -1,0 +1,87 @@
+@import url(http://fonts.googleapis.com/css?family=Karla:400);
+
+body {
+  font-family: Karla;
+  background: url(big_thing.png) 0 0 no-repeat, #F6F6F6;
+  background-position: right -340px top -400px;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.03);
+  -webkit-font-smoothing: antialiased;
+}
+
+.logo {
+  position: absolute;
+  top: -89px;
+  left: 0px;
+  font-weight: 800;
+  font-size: 50px;
+  color: #C3C3C3;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 860px;
+  margin-top: 121px;
+  height: 424px;
+  background: #E6E6E6;
+  border-radius: 5px;
+  border: 1px solid #D4D4D4;
+  padding: 50px 100px;
+  box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 50px;
+  color: rgb(100, 100, 100);
+}
+
+hr {
+  border-width: 2px;
+  border-color: rgb(191, 191, 191);
+  border-style: solid;
+}
+
+.button {
+  float: right;
+  text-align: center;
+  display: inline;
+  width: 450px;
+  cursor: pointer;
+  padding: 20px 10px;
+  border: 1px solid rgba(26, 53, 71, .11);
+  border-radius: 50px;
+  font-weight: 400;
+  font-size: 24px;
+  color: rgb(69, 69, 69);
+  margin-top: 90px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4);
+  background: linear-gradient(#FCE894, #FFE36D);
+}
+
+h1 {
+  font-size: 61px;
+  position: relative;
+  display: inline;
+  color: rgb(108, 108, 108);
+}
+
+.accounts span {
+  float: right;
+  position: relative;
+  bottom: -32px;
+  font-size: 30px;
+  text-align: right;
+  color: rgb(147, 147, 147);
+}
+
+.accounts .container {
+  height: inherit;
+}
+
+.account-item {
+  background: white;
+  padding: 30px;
+  margin-bottom: 21px;
+  border-radius: 3px;
+  border: 1px solid rgb(216, 216, 216);
+}
