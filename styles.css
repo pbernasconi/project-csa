@@ -41,7 +41,7 @@ hr {
   border-style: solid;
 }
 
-.button {
+#plaid-csa button {
   float: right;
   text-align: center;
   display: inline;
